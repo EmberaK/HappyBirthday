@@ -1,0 +1,17 @@
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-level-paragraph{
+    color: #4d472e;
+    text-align: center;
+    font-size: 32px !important;
+    font-weight: 700;
+}
+.footer__info{
+    height: 100%;
+    background-color: transparent;
+    padding: 40px;
+}

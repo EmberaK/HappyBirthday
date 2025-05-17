@@ -1,0 +1,69 @@
+@import url(./DumpingStyles.css);
+@import url(./animation.css);
+@import url(./start.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+button, a{
+  cursor: pointer;
+}
+
+* {
+  font-family: "Cormorant Garamond", serif;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+body {
+  background-color: #91713c !important;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  background-color: #91713c !important;
+}
+
+@media (max-width: 500px) {
+  section {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  section {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 1499px) {
+  section {
+    padding: 40px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  section {
+    padding: 50px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .start {
+    max-height: 100%;
+  }
+
+  section {
+    padding: 60px !important;
+  }
+}
+
