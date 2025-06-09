@@ -380,3 +380,44 @@
 .main-fifth-level .main-level-heading{
     text-align: center;
 }
+
+
+.main-level, .footer{
+    opacity: 0;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-name: slideInTop;
+    animation-delay: 0.3s !important;
+}
+
+
+
+@media (min-width: 950px) {
+    .main-img-level,
+    .main-info-level {
+      opacity: 0;
+      animation-duration: 0.8s;
+      animation-fill-mode: forwards;
+    }
+  
+    .main-img-level {
+      animation-name: slideInLeft;
+      animation-delay: 0.3s !important;
+    }
+  
+    .main-info-level {
+      animation-name: slideInRight;
+      animation-delay: 0.3s !important;
+    }
+  }
+
+  button {
+    border: 2px solid transparent;
+  }
+  
+  button:active,
+  button:focus,
+  button:hover {
+    border: 2px solid transparent; /* чтобы не менялась толщина */
+    transform: none;               /* если используется transform */
+   }

@@ -42,7 +42,7 @@
     </section>
     <section class="main">
       <div class="wrapper">
-        <div class="main-first-level">
+        <div class="main-first-level main-level">
           <img
             class="main-icon icon-first"
             src="./images/icons/30.svg"
@@ -92,7 +92,7 @@
             alt="icon"
           />
         </div>
-        <div class="main-second-level">
+        <div class="main-second-level main-level">
           <div class="main-img-level">
             <img src="./images/icons/width_736.webp" alt="" />
           </div>
@@ -109,7 +109,7 @@
             <span class="main-level-subheading"> Что задувают на торте? </span>
           </div>
         </div>
-        <div class="main-third-level">
+        <div class="main-third-level main-level">
           <div class="main-info-level">
             <h2 class="main-level-heading">Уровень 3:</h2>
             <div class="main-level-input">
@@ -126,7 +126,7 @@
             <img src="./images/icons/s.webp" alt="" />
           </div>
         </div>
-        <div class="main-fourth-level">
+        <div class="main-fourth-level main-level">
           <div class="main-img-level">
             <img src="./images/icons/screen_2x.webp" alt="" />
           </div>
@@ -152,7 +152,7 @@
           </div>
           
         </div>
-        <div class="main-fifth-level  ">
+        <div class="main-fifth-level  main-level">
          
             <h2 class="main-level-heading">Ты готов узреть тайну этого мира?..</h2>
              
@@ -171,42 +171,8 @@
         Пусть твой день рождения станет стартом новых приключений, больших идей и смелых проектов. Желаю, чтобы каждый момент был наполнен улыбками и вдохновением — ведь лучший сценарий пишешь именно ты!
       </p>
     </section>
-    <!-- <script type="module" src="./scripts/event.js" defer></script> -->
-    <script>
-const start = document.querySelector(".start");
-const startBtn = document.querySelector(".start__btn");
+    
+     <script src="./scripts/events.js"></script>
 
-const button = safeQuerySelector(".start__info--button");
-const startInfo = safeQuerySelector(".start__info");
-const startImg = safeQuerySelector(".start-img");
-const startSection = safeQuerySelector(".start");
-const mainSection = safeQuerySelector(".main");
-const firstLevel = safeQuerySelector(".main-first-level");
-const findBtn = safeQuerySelector(".icon-seventh");
-const findBtnAll = document.querySelectorAll(".main-icon");
-
-const secondSection = safeQuerySelector(".main-second-level");
-const secondSendBtn = safeQuerySelector(".main-level-second--btn");
-const secondInput = safeQuerySelector(".main-level-second--input");
-
-const thirdSection = safeQuerySelector(".main-third-level");
-const thirdSendBtn = safeQuerySelector(".main-level-third--btn");
-const thirdInput = safeQuerySelector(".main-level-third--input");
-
-const fourthSection = safeQuerySelector(".main-fourth-level");
-const fourthSendBtn = safeQuerySelector(".main-level-fourth--btn");
-const fourthInput = safeQuerySelector(".main-level-fourth--input");
-
-const fifthSection = safeQuerySelector(".main-fifth-level");
-const fifthSendBtn = safeQuerySelector(".main-fifth-level--btn");
-
-const footer = safeQuerySelector(".footer");
-const main = safeQuerySelector(".main");
-startBtn.addEventListener("click", () => {
-  start.style.display = "none";
-  main.style.display = "flex";
-
-});
-    </script>
   </body>
 </html>
