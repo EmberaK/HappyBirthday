@@ -1,181 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="./styles/all.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./images/icon.png" type="image/png"  />
+<html lang="ru">
 
-    <style>
-      .main-level--btn {
-        height: 100% !important;
-      }    </style>
-    <title>Квест?</title>
-  </head>
-  <body>
-    <section class="start">
-      <div class="wrapper">
-        <div class="start__info">
-          <h1 class="start__info--heading">Готовы к квесту?</h1>
-          <button class="start__info--button start__btn">ДААА!</button>
-          <img
-            src="./images/icons/1.svg"
-            alt="image"
-            class="start__info--image start__info--arrow"
-          />
-          <img
-            src="./images/icons/2.svg"
-            alt="image"
-            class="start__info--image start__info--computer"
-          />
-          <img
-            src="./images/icons/3.svg"
-            alt="image"
-            class="start__info--image start__info--mouse"
-          />
-        </div>
-        <div class="start-img">
-          <img src="./images/photo/1.jpeg" alt="image" class="start--img" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="./styles/all.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./images/icon.webp" type="image/png" />
+
+  <style>
+    .main-level--btn {
+      height: 100% !important;
+    }
+
+    .main-level--input,
+    input,
+    input:focus,
+    input:hover {
+      border-color: transparent !important;
+
+
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: inherit !important;
+    }
+
+    @media (max-width: 500px) {
+      input {
+        padding-left: 10px !important;
+      }
+    }
+  </style>
+  <title>Квест?</title>
+</head>
+
+<body>
+  <section class="start">
+    <div class="wrapper">
+      <div class="start__info">
+        <h1 class="start__info--heading">Готовы к квесту?</h1>
+        <button class="start__info--button start__btn">ДААА!</button>
+        <img src="./images/icons/1.svg" alt="image" class="start__info--image start__info--arrow" />
+        <img src="./images/icons/2.svg" alt="image" class="start__info--image start__info--computer" />
+        <img src="./images/icons/3.svg" alt="image" class="start__info--image start__info--mouse" />
       </div>
-    </section>
-    <section class="main">
-      <div class="wrapper">
-        <div class="main-first-level main-level">
-          <img
-            class="main-icon icon-first"
-            src="./images/icons/30.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-second"
-            src="./images/icons/31.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-third"
-            src="./images/icons/32.svg"
-            alt="icon"
-          />
-          <div class="main-left">
-            <div class="main-block-colum">
-              <h2 class="main-level-heading">Уровень 1:</h2>
-              <span class="main-level-subheading">
-                Найди спрятанную кнопку!
-              </span>
-            </div>
-          </div>
-          <img
-            class="main-icon icon-fourth"
-            src="./images/icons/33.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-fifth"
-            src="./images/icons/34.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-sixth"
-            src="./images/icons/35.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-seventh"
-            src="./images/icons/36.svg"
-            alt="icon"
-          />
-          <img
-            class="main-icon icon-eighth"
-            src="./images/icons/37.svg"
-            alt="icon"
-          />
-        </div>
-        <div class="main-second-level main-level">
-          <div class="main-img-level">
-            <img src="./images/icons/width_736.webp" alt="" />
-          </div>
-          <div class="main-info-level">
-            <h2 class="main-level-heading">Уровень 2:</h2>
-            <div class="main-level-input">
-              <input
-                type="text"
-                class="main-level--input main-level-second--input"
-                placeholder="Введите сюда"
-              />
-              <button class="main-level--btn main-level-second--btn">Ответить</button>
-            </div>
-            <span class="main-level-subheading"> Что задувают на торте? </span>
-          </div>
-        </div>
-        <div class="main-third-level main-level">
-          <div class="main-info-level">
-            <h2 class="main-level-heading">Уровень 3:</h2>
-            <div class="main-level-input">
-              <input
-                type="text"
-                class="main-level--input main-level-third--input"
-                placeholder="Введите сюда"
-              />
-              <button class="main-level--btn  main-level-third--btn">Ответить</button>
-            </div>
-            <span class="main-level-subheading">Сколько свеч?</span>
-          </div>
-          <div class="main-img-level">
-            <img src="./images/icons/s.webp" alt="" />
-          </div>
-        </div>
-        <div class="main-fourth-level main-level">
-          <div class="main-img-level">
-            <img src="./images/icons/screen_2x.webp" alt="" />
-          </div>
-          <div class="main-info-level">
-            <h2 class="main-level-heading">Уровень 4:</h2>
-            <div class="main-level-input">
-              <input
-                type="text"
-                class="main-level--input main-level-fourth--input"
-                placeholder="Введите сюда"
-              />
-              <button class="main-level--btn main-level-fourth--btn">Ответить</button>
-            </div>
-            <span class="main-level-subheading main-level-subheading--fourth">
-              <span class="main-level-subheading--exrcise">
-                Собери слово с букв:
-              </span>
-              <span class="main-level-subheading--answer">
-                знриаьпкд
-              </span>
+      <div class="start-img">
+        <img src="./images/photo/1.webp" alt="image" class="start--img" />
+      </div>
+    </div>
+  </section>
+  <section class="main">
+    <div class="wrapper">
+      <div class="main-first-level main-level">
+        <img class="main-icon icon-first" src="./images/icons/30.svg" alt="icon" />
+        <img class="main-icon icon-second" src="./images/icons/31.svg" alt="icon" />
+        <img class="main-icon icon-third" src="./images/icons/32.svg" alt="icon" />
+        <div class="main-left">
+          <div class="main-block-colum">
+            <h2 class="main-level-heading">Уровень 1:</h2>
+            <span class="main-level-subheading">
+              Найди спрятанную кнопку!
             </span>
-
           </div>
-          
         </div>
-        <div class="main-fifth-level  main-level">
-         
-            <h2 class="main-level-heading">Ты готов узреть тайну этого мира?..</h2>
-             
-            <button class="main-fifth-level--btn start__info--button">
-              ДААА
-             </button>
-          
+        <img class="main-icon icon-fourth" src="./images/icons/33.svg" alt="icon" />
+        <img class="main-icon icon-fifth" src="./images/icons/34.svg" alt="icon" />
+        <img class="main-icon icon-sixth" src="./images/icons/35.svg" alt="icon" />
+        <img class="main-icon icon-seventh" src="./images/icons/36.svg" alt="icon" />
+        <img class="main-icon icon-eighth" src="./images/icons/37.svg" alt="icon" />
+      </div>
+      <div class="main-second-level main-level">
+        <div class="main-img-level">
+          <img src="./images/icons/width_736.webp" alt="" />
+        </div>
+        <div class="main-info-level">
+          <h2 class="main-level-heading">Уровень 2:</h2>
+          <div class="main-level-input">
+            <input type="text" class="main-level--input main-level-second--input" placeholder="Введите сюда" />
+            <button class="main-level--btn main-level-second--btn">Ответить</button>
+          </div>
+          <span class="main-level-subheading"> Что задувают на торте? </span>
         </div>
       </div>
-    </section>
+      <div class="main-third-level main-level">
+        <div class="main-info-level">
+          <h2 class="main-level-heading">Уровень 3:</h2>
+          <div class="main-level-input">
+            <input type="text" class="main-level--input main-level-third--input" placeholder="Введите сюда" />
+            <button class="main-level--btn  main-level-third--btn">Ответить</button>
+          </div>
+          <span class="main-level-subheading">Сколько свеч?</span>
+        </div>
+        <div class="main-img-level">
+          <img src="./images/icons/s.webp" alt="" />
+        </div>
+      </div>
+      <div class="main-fourth-level main-level">
+        <div class="main-img-level">
+          <img src="./images/icons/screen_2x.webp" alt="" />
+        </div>
+        <div class="main-info-level">
+          <h2 class="main-level-heading">Уровень 4:</h2>
+          <div class="main-level-input">
+            <input type="text" class="main-level--input main-level-fourth--input" placeholder="Введите сюда" />
+            <button class="main-level--btn main-level-fourth--btn">Ответить</button>
+          </div>
+          <span class="main-level-subheading main-level-subheading--fourth">
+            <span class="main-level-subheading--exrcise">
+              Собери слово с букв:
+            </span>
+            <span class="main-level-subheading--answer">
+              знриаьпкд
+            </span>
+          </span>
 
-    <section class="footer">
+        </div>
 
-      <h2 class="main-level-heading">С днём рождения!</h2>
-      <p class="main-level-paragraph">
-        Пусть твой день рождения станет стартом новых приключений, больших идей и смелых проектов. Желаю, чтобы каждый момент был наполнен улыбками и вдохновением — ведь лучший сценарий пишешь именно ты!
-      </p>
-    </section>
-    
-     <script src="./scripts/events.js"></script>
+      </div>
+      <div class="main-fifth-level  main-level">
 
-  </body>
+        <h2 class="main-level-heading">Ты готов узреть тайну этого мира?..</h2>
+
+        <button class="main-fifth-level--btn start__info--button">
+          ДААА
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+
+    <h2 class="main-level-heading">С днём рождения!</h2>
+    <p class="main-level-paragraph">
+      Пусть твой день рождения станет стартом новых приключений, больших идей и смелых проектов. Желаю, чтобы каждый
+      момент был наполнен улыбками и вдохновением — ведь лучший сценарий пишешь именно ты!
+    </p>
+  </section>
+
+  <script src="./scripts/events.js"></script>
+
+</body>
+
 </html>
