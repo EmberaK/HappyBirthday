@@ -117,11 +117,37 @@
 
 @media (max-width: 500px) {
   .start__info--heading {
-    font-size: 61px;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .start__info--button {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .start__info--heading {
+    font-size: 38px;
+    margin-bottom: 25px;
   }
 
   .start__info--button {
     font-size: 12px;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .start__info--heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .start__info--button {
+    font-size: 11px;
+    padding: 10px 20px;
   }
 }
 
