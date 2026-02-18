@@ -270,7 +270,7 @@
     right: -5px;
     z-index: 22;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) !important;
     background-color: #91713c;
     color: #ececec;
     padding: 20px 70px;
@@ -278,12 +278,16 @@
     border-radius: 50px;
     font-weight: 700;
     font-size: 32px;
-
+    transition: none !important;
 }
 
 .main-level--btn:hover {
     background-color: #947647;
     opacity: 1;
+}
+
+.main-level--btn:active {
+     background-color: #91713c;
 }
 
 .main-info-level {
@@ -418,6 +422,12 @@
   button:active,
   button:focus,
   button:hover {
-    border: 2px solid transparent; /* чтобы не менялась толщина */
-    transform: none;               /* если используется transform */
+    border: 2px solid transparent;
+    transform: none;
    }
+
+  .main-level--btn:active,
+  .main-level--btn:focus,
+  .main-level--btn:hover {
+    transform: translateY(-50%) !important;
+  }
