@@ -56,7 +56,9 @@ levelSecondBtn.addEventListener("click", () => {
 });
 
 levelThirdBtn.addEventListener("click", () => {
-    if (levelThirdInput.value.trim().toLowerCase() == 2 || 4) {
+    const value = Number(levelThirdInput.value.trim());
+
+    if (value === 2 || value === 4) {
         mainSectionLevelThird.style.display = "none";
         mainSectionLevelFourth.style.display = "flex";
     }
