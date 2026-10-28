@@ -1,5 +1,5 @@
 .main {
-    background-image: url(../images/photo/background-main.svg);
+    background-image: url(../images/backgrounds/quest-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -591,4 +591,88 @@ button:hover {
 .main-level--btn:focus,
 .main-level--btn:hover {
     transform: translateY(-50%) !important;
+}
+
+/* Final question card — keep this treatment limited to the fifth level. */
+.main-fifth-level {
+    position: relative;
+    overflow: hidden;
+    gap: clamp(22px, 4vh, 36px);
+    padding: clamp(30px, 7vw, 88px);
+    border: 1px solid rgba(77, 71, 46, 0.2);
+    border-radius: 30px;
+    background: radial-gradient(circle at 50% 0%, rgba(182, 139, 74, 0.14), transparent 48%), #f8f5ef;
+    box-shadow: 0 18px 55px rgba(50, 39, 19, 0.2);
+}
+
+.main-fifth-level::before {
+    content: "";
+    position: absolute;
+    inset: 18px;
+    border: 1px solid rgba(182, 139, 74, 0.32);
+    border-radius: 22px;
+    pointer-events: none;
+}
+
+.main-fifth-level > * {
+    position: relative;
+    z-index: 1;
+}
+
+.main-fifth-level .main-level-heading {
+    max-width: 850px;
+    margin: 0;
+    padding: 0 12px;
+    color: #4d472e !important;
+    font-size: clamp(2.2rem, 5.5vw, 4.5rem) !important;
+    font-weight: 400;
+    line-height: 1.12;
+    text-align: center;
+    text-shadow: none;
+}
+
+.main-fifth-level .main-level-heading::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 1px;
+    margin: 22px auto 0;
+    background: #b68b4a;
+}
+
+.main-fifth-level .main-fifth-level--btn {
+    padding: 18px 48px;
+    border: 1px solid #4d472e;
+    border-radius: 999px;
+    background: #4d472e;
+    color: #f8f5ef;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    box-shadow: 0 8px 20px rgba(77, 71, 46, 0.18);
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-fifth-level .main-fifth-level--btn:hover {
+    transform: translateY(-2px);
+    background: #62583a;
+    box-shadow: 0 12px 24px rgba(77, 71, 46, 0.24);
+}
+
+@media (max-width: 600px) {
+    .main-fifth-level {
+        gap: 24px;
+        padding: 32px 20px;
+        border-radius: 24px;
+    }
+
+    .main-fifth-level::before {
+        inset: 12px;
+        border-radius: 18px;
+    }
+
+    .main-fifth-level .main-fifth-level--btn {
+        padding: 15px 34px;
+        font-size: 16px;
+    }
 }
