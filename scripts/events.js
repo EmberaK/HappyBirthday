@@ -52,6 +52,8 @@ levelSecondBtn.addEventListener("click", () => {
     if (levelSecondInput.value.trim().toLowerCase() === "свечи") {
         mainSectionLevelSecond.style.display = "none";
         mainSectionLevelThird.style.display = "flex";
+    } else{
+        alert("Пупупу, что-то у тебя не получаеться");
     }
 });
 
@@ -61,6 +63,8 @@ levelThirdBtn.addEventListener("click", () => {
     if (value === 2 || value === 4) {
         mainSectionLevelThird.style.display = "none";
         mainSectionLevelFourth.style.display = "flex";
+    } else{
+        alert("Что-то вы не так посчитали с картинки");
     }
 });
 
@@ -68,6 +72,8 @@ levelFourthBtn.addEventListener("click", () => {
     if (levelFourthInput.value.trim().toLowerCase() === "праздник") {
         mainSectionLevelFourth.style.display = "none";
         mainSectionLevelFifth.style.display = "flex";
+    }else{
+        alert("Пупупу, что-то у тебя не получаеться");
     }
 });
 levelSecondInput.addEventListener("keydown", (e) => {
