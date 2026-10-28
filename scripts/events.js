@@ -64,7 +64,7 @@ levelThirdBtn.addEventListener("click", () => {
         mainSectionLevelThird.style.display = "none";
         mainSectionLevelFourth.style.display = "flex";
     } else{
-        alert("Что-то вы не так посчитали с картинки");
+        alert("Что-то ты не так посчитали с картинки");
     }
 });
 
