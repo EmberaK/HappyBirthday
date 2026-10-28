@@ -73,7 +73,7 @@ levelFourthBtn.addEventListener("click", () => {
         mainSectionLevelFourth.style.display = "none";
         mainSectionLevelFifth.style.display = "flex";
     }else{
-        alert("Пупупу, что-то у тебя не получаеться");
+        alert("Думаешь, что это слово - это ответ? По моему, нет :)");
     }
 });
 levelSecondInput.addEventListener("keydown", (e) => {
