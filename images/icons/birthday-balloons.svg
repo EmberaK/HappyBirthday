@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" fill="none">
-  <g stroke="#4d472e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
-    <path d="M31 55c-2 23 9 31 23 53m13-64c7 21 0 34-13 64m-1-75c-2 19 1 37 1 75" opacity=".8" />
-    <path d="M26 58c-10-2-16-13-15-27C12 17 20 7 31 8c12 1 17 12 15 24-2 14-10 26-20 26Z" fill="#e8d5b3" />
-    <path d="M65 48c-10 1-18-8-20-21-2-13 4-24 15-26 11-2 20 6 22 19 2 13-7 26-17 28Z" fill="#f8f5ef" />
-    <path d="M53 71c-11-1-18-12-17-25 1-12 9-22 20-21 11 1 17 11 16 24-1 13-9 23-19 22Z" fill="#d7a75c" />
-    <path d="m27 58 4 5 4-5m28-9 4 5 4-6m-31 23 4 5 4-5" fill="#b68b4a" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 190" fill="none">
+  <g stroke="#4d472e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4">
+    <!-- Left balloon -->
+    <path d="M40 84C28 80 16 64 16 47c0-18 10-31 25-31s25 13 25 31c0 17-13 33-25 37Z" fill="#e8d5b3" />
+    <path d="M28 32c3-6 8-9 14-10" stroke="#fffaf0" stroke-width="3" />
+    <path d="m37 85 6 0-3 7Z" fill="#d7a75c" />
+    <path d="M40 92c-7 13 8 22 5 36-2 10-10 17-7 28 2 7 7 12 5 21" />
+
+    <!-- Center balloon -->
+    <path d="M79 72C67 68 56 53 56 37c0-17 9-29 23-29s23 12 23 29c0 16-12 31-23 35Z" fill="#f8f5ef" />
+    <path d="M68 25c3-5 7-8 12-9" stroke="#fff" stroke-width="3" />
+    <path d="m76 73 6 0-3 7Z" fill="#d7a75c" />
+    <path d="M79 80c7 12-5 22-2 34 3 10 12 15 10 26-1 7-7 12-5 20 1 5 4 9 3 16" />
+
+    <!-- Right balloon -->
+    <path d="M119 91C107 87 96 72 96 56c0-17 9-29 23-29s23 12 23 29c0 16-12 31-23 35Z" fill="#d7a75c" />
+    <path d="M108 44c3-5 7-8 12-9" stroke="#f8f5ef" stroke-width="3" />
+    <path d="m116 92 6 0-3 7Z" fill="#e8d5b3" />
+    <path d="M119 99c-6 11 4 21-1 32-4 9-13 14-11 25 1 5 4 9 2 14" />
   </g>
-  <path d="M48 111c2 3 4 5 7 7m2-7c-2 3-4 5-7 7" stroke="#b68b4a" stroke-linecap="round" stroke-width="2" />
 </svg>
